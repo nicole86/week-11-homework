@@ -1,4 +1,4 @@
-// var Student = require('./student.js');
+var Student = require('./student.js');
 
 var Bus = function(studentsOnTheBus, driverName, color, gas, studentEntersBus, busChatter){
  	this.studentsOnTheBus = [];
