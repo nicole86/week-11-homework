@@ -18,11 +18,4 @@ var Student = function(name, gender, grade, GPA, detentions, sleepingInClass, ca
   }
 }
 
-
-prompt.get(['name', 'gender', 'grade', 'GPA', 'detentions', 'sleepingInClass', 'catchPhrase'], function(err, result){
-  var student = new Student(result.name, result.gender, result.grade, result.GPA, result.detentions, result.sleepingInClass, result.catchPhrase);
-
-  student.canStudentHaveFun();
-});
-
 module.exports = Student;
